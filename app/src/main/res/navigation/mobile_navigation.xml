@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.abtahiapp.instagramclone.Home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+    <fragment
+        android:id="@+id/search"
+        android:name="com.abtahiapp.instagramclone.Search"
+        tools:layout="@layout/fragment_search" >
+    </fragment>
+    <fragment
+        android:id="@+id/add"
+        android:name="com.abtahiapp.instagramclone.Add"
+        tools:layout="@layout/fragment_add" >
+    </fragment>
+    <fragment
+        android:id="@+id/reels"
+        android:name="com.abtahiapp.instagramclone.Reels"
+        tools:layout="@layout/fragment_reels" >
+    </fragment>
+    <fragment
+        android:id="@+id/myAccount"
+        android:name="com.abtahiapp.instagramclone.MyAccount"
+        tools:layout="@layout/fragment_my_account" >
+        <action
+            android:id="@+id/action_myAccount_to_add"
+            app:destination="@id/add" />
+    </fragment>
+
+</navigation>

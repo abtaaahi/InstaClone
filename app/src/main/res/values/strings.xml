@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Insta Clone</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="language_names">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Arabic</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Italian</item>
+        <item>Korean</item>
+        <item>Dutch</item>
+        <item>Turkish</item>
+        <item>Hindi</item>
+        <item>Bengali</item>
+        <item>Urdu</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+        <item>Indonesian</item>
+        <item>Swahili</item>
+    </string-array>
+
+    <string name="preference_file_key">your_preference_file_key</string>
+    <string name="logged_in_key">logged_in</string>
+</resources>
